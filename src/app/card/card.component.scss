@@ -8,6 +8,7 @@
   font-family: 'Poppins', sans-serif;
 
 
+
 .__item {
   padding: 10px;
 }
@@ -26,7 +27,13 @@
 &__price {
   font-style: 600;
   font-size: 40px;
+  font-weight: bolder;
+
 }
 
 
 }
+::ng-deep app-card-button-cancel  .card-cancel-button {
+  background-color: rgb(252, 174, 58) !important;
+}
+

@@ -6,6 +6,8 @@ import { CardsModule } from './cards/cards.module';
 @NgModule({
   declarations: [
     AppComponent
+
+
   ],
   imports: [
     BrowserModule,
