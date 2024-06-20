@@ -31,9 +31,21 @@
 
 }
 
-
-}
-::ng-deep app-card-button-cancel  .card-cancel-button {
-  background-color: rgb(252, 174, 58) !important;
 }
 
+.card-cancel-button {
+  background-color: red !important;
+
+}
+
+// ::ng-deep .emulated {
+//   background-color: red !important;
+// }
+
+// .global {
+//   background-color: greenyellow !important;
+// }
+// //componente mat-slider
+// :host ::ng-deep mat-slider .mdc-slider__track--active_fill{
+//   border-color: yellowgreen !important;
+// }
