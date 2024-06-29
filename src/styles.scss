@@ -5,7 +5,9 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-// .card-cancel-button {
-//   background-color: greenyellow !important;
+mat-slider.custom-slider .mdc-slider__track--active {
 
-// }
+  background-color: yellowgreen !important;
+
+}
+

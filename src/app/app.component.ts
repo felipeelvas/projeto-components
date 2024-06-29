@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'projeto-components';
+  cardPlanType = 'Simples';
+  cardPlanPrice = 100;
+
+  cardRoxoplanType = 'Completo';
+  cardRoxoplanPrice = 250;
 }
